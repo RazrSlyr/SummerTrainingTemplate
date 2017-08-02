@@ -57,7 +57,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 @TeleOp(name="LOL This doesnt really matter so u can ignore this XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD", group="Neither this LOOOOOOOOOOOOOOOOOOOL")  // @Autonomous(...) is the other common choice
 @Disabled
 public class HumanRobotProject extends LinearOpMode {
-
+    ColorSensor colorSensor;
     DcMotor rightFoot;
     DcMotor leftFoot;
     /**
@@ -91,6 +91,8 @@ public class HumanRobotProject extends LinearOpMode {
 
     @Override
     public void runOpMode() {
+
+
 
     }
 
